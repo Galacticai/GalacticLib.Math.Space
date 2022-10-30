@@ -38,7 +38,7 @@
 > <a href="https://github.com/Galacticai/GalacticLib.Math.Numerics" >
 >     <img
 >         alt="GalacticLib.Math.Numerics" 
->         src="https://img.shields.io/badge/Galacticai-GalacticLib.Math.Numerics-informational?logo=github&color=white" 
+>         src="https://img.shields.io/badge/Galacticai-GalacticLib.Math.Numerics-informational?logo=github&logoColor=black&labelColor=white&color=ddd" 
 >     />
 > </a>
 > @
