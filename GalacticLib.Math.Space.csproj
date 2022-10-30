@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>GalacticLib.Math.Space</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <Title>GalacticLib (Math.Space)</Title>
+	<Copyright>©2022 Galacticai</Copyright>
+    <PackageProjectUrl>https://Galacticai.github.io/GalacticLib</PackageProjectUrl>
+    <PackageRepositoryUrl>https://github.com/Galacticai/GalacticLib.Math.Space</PackageRepositoryUrl>
+    <PackageTags>Galacticai;GalacticLib;Lib;Library;Math;Space;</PackageTags>
+    <NeutralLanguage>en-001</NeutralLanguage>
+	<Authors>Galacticai</Authors>
+	<VersionPrefix>0.2.1</VersionPrefix>
+	<AssemblyVersion>0.2.1</AssemblyVersion>
+	<FileVersion>0.2.1</FileVersion>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+</PropertyGroup>
+
+<ItemGroup>
+    <None Include="README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+    </None>
+</ItemGroup>
+
+<ItemGroup>
+    <None Update="LICENSE">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+    </None>
+</ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="GalacticLib.Math.Numerics" Version="1.0.0" />
+</ItemGroup>
+
+</Project>
